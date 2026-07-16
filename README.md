@@ -29,7 +29,7 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 **Naresh Chauhan**
 
 - GitHub: https://github.com/NareshChauhan01
-- LinkedIn: Add your LinkedIn profile here
+- LinkedIn: https://www.linkedin.com/in/naresh-chauhan01/
 
 ---
 
