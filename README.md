@@ -14,6 +14,12 @@ A responsive and user-friendly Password Generator built using **HTML**, **CSS**,
 - Responsive design for desktop and mobile devices
 - Modern and clean user interface
 
+## 🚀 Live Preview
+Experience the project live by clicking the link below.
+
+**🔗 Visit Here:**  
+http://nareshchauhan01.github.io/Password-Generator/
+
 ## 🛠️ Tech Stack
 
 - HTML5
@@ -33,4 +39,4 @@ Contributions are welcome! Feel free to fork this repository and submit a pull r
 
 ---
 
-⭐ If you like this project, don't forget to give it a **Star** on GitHub!
+⭐ If you found this project helpful, please consider giving it a Star on GitHub. Your support is greatly appreciated!
