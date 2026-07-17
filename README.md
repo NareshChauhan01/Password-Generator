@@ -1,10 +1,8 @@
 ### 🔐 Password Generator
-──────────────────────────
 
 A responsive and user-friendly Password Generator built using **HTML**, **CSS**, and **JavaScript**. It allows users to generate strong and secure passwords with customizable options, making it easier to create passwords for personal and professional use.
 
 ### ✨ Features
-────────────────
 
 - Generate strong and secure passwords
 - Customize password length
@@ -23,19 +21,16 @@ Experience the project live by clicking the link below.
 http://nareshchauhan01.github.io/Password-Generator/
 
 ### 🛠️ Tech Stack
-──────────────────
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 
 ### 🤝 Contributing
-────────────────────
 
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
 ### 👨‍💻 Author
-──────────────
 
 **Naresh Chauhan**
 
