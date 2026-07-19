@@ -330,7 +330,7 @@
     body {
       min-height: 100dvh;
       padding: 16px;
-      justify-content: flex-start;
+      justify-content: center;
     }
 
     .container {
