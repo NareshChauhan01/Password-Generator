@@ -22,13 +22,23 @@
     --dk-text: hsl(198, 20%, 13%);
   }
 
-  body {
+  /* body {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
+  } */
+
+  body {
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(231deg, rgba(22, 6, 40, 1) 0%, rgba(52, 28, 79, 1) 50%, rgba(88, 7, 125, 1) 100%);
   }
 
@@ -267,32 +277,29 @@
     box-shadow: 0px 0px 25px 5px rgba(255, 229, 61, 0.80);
   }
 
-  /* Responsive */
+  /* ==========================
+     Responsive
+  ========================== */
+
   @media (max-width: 768px) {
 
-    .container {
-      max-width: 420px;
+    body {
+      min-height: 100dvh;
+      padding: 20px 15px;
+      justify-content: center;
     }
 
-    .input-container {
-      padding: 1.5rem;
+    .container {
+      width: 100%;
+      max-width: 420px;
     }
 
     h1 {
       font-size: 2rem;
     }
 
-    .length-container p,
-    .strength-container p {
-      font-size: 1.3rem;
-    }
-
-    .check label {
-      font-size: 1.1rem;
-    }
-
-    .generateButton {
-      font-size: 1.1rem;
+    .input-container {
+      padding: 1.5rem;
     }
 
     .display {
@@ -302,26 +309,48 @@
     .display::placeholder {
       font-size: 1.2rem;
     }
+
+    .length-container p,
+    .strength-container p {
+      font-size: 1.2rem;
+    }
+
+    .check label {
+      font-size: 1rem;
+    }
+
+    .generateButton {
+      font-size: 1rem;
+    }
+
   }
 
-  @media (max-width: 480px) {
+  @media (max-width:480px) {
 
     body {
-      padding: 1rem;
-      justify-content: center;
+      min-height: 100dvh;
+      padding: 16px;
+      justify-content: flex-start;
     }
 
     .container {
       width: 100%;
+      max-width: 100%;
+      margin: 20px 0;
     }
 
     h1 {
       font-size: 1.6rem;
       letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .display-container {
+      margin: 0.8rem 0;
     }
 
     .display {
-      padding: 1rem;
+      padding: 0.9rem 1rem;
       padding-right: 3rem;
       font-size: 1rem;
     }
@@ -341,7 +370,11 @@
     }
 
     .input-container {
-      padding: 1.25rem;
+      padding: 1.2rem;
+    }
+
+    .slider {
+      margin: 1rem 0;
     }
 
     .length-container p,
@@ -350,38 +383,63 @@
     }
 
     .check {
+      margin: 0.75rem 0;
       gap: 0.75rem;
+    }
+
+    .check input {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
     }
 
     .check label {
       font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .strength-container {
+      margin: 1.2rem 0;
+    }
+
+    .indicator {
+      width: 1.2rem;
+      height: 1.2rem;
     }
 
     .generateButton {
+      padding: 0.85rem;
       font-size: 1rem;
-      padding: 0.9rem;
     }
 
     .tooltip {
-      font-size: 0.9rem;
+      font-size: 0.85rem;
     }
+
   }
 
-  @media (max-width: 360px) {
+  @media (max-width:360px) {
+
     body {
-      padding: 0px 1rem;
+      padding: 12px;
     }
 
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
     }
 
     .display {
       font-size: 0.9rem;
+      padding: 0.8rem;
+      padding-right: 2.8rem;
     }
 
     .display::placeholder {
       font-size: 0.9rem;
+    }
+
+    .input-container {
+      padding: 1rem;
     }
 
     .length-container p,
@@ -389,17 +447,22 @@
       font-size: 0.9rem;
     }
 
+    .check {
+      margin: 0.6rem 0;
+    }
+
     .check label {
       font-size: 0.85rem;
-      line-height: 1.4;
     }
 
     .generateButton {
       font-size: 0.9rem;
+      padding: 0.8rem;
     }
 
     .copyBtn img {
       width: 18px;
       height: 18px;
     }
+
   }
