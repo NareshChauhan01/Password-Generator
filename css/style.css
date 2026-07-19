@@ -368,6 +368,9 @@
   }
 
   @media (max-width: 360px) {
+    body {
+      padding: none;
+    }
 
     h1 {
       font-size: 1.4rem;
